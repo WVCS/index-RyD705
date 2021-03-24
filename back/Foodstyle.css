@@ -51,7 +51,9 @@ grid-auto-rows: 300px;
 .Box {background-color: gold;
 font-size:100px;}
 
-div.navbar {grid-column-start:1;}
+div.navbar {grid-column-start:1;
+grid-row-start: 1;
+}
 
 
 
