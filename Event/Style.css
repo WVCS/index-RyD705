@@ -62,7 +62,62 @@ body {background-color: grey;}
 
 
 
-p 
+ul.nav {
+  list-style-type:none;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: salmon;
+  color: black;
+  font-family: Noto Sans, sans-serif;
+  border: dashed-orange;
+}
+
+li.nav {display: inline;
+padding: 10px;
+margin: 50px;
+float:10px ;
+}
+a{text-decoration: none;
+color: black;
+font-size: 200%
+}
+ 
+li a:hover {background-color:salmon ;
+font-size: 130%;
+color: Red}
+
+.Food {position: sticky;
+bottom: 0;
+right: 90%;
+background-color: green;
+  width:5%;
+  border:2px dashed-gold;
+}
+
+
+div {background-color:purple;
+border: 5px dotted pink;}
+
+
+.wrapper {background-color:aqua;
+ 
+  border: none;
+display:grid;
+ grid-gap:10px;
+grid-template-columns:  1fr 2fr 3fr ;
+grid-template-rows: 100px;
+grid-auto-rows: 300px;
+  
+ }
+.Box {background-color: gold;
+font-size:100px;}
+
+div.navbar {
+top: 25%;
+  positon: fixed;}
+
 
 
 
