@@ -1,5 +1,17 @@
 <html>
+<head>
 
+
+
+</head>
+
+
+<body>
+<div class="wrapper">
+<div class="navbar">
+    <ul class="nav">
+ <li class="nav"><a href="../index.html">Home</a></li>
+    <li class="nav"><a href="home.html"> Bow-Ba</a></li>
 
 
 
