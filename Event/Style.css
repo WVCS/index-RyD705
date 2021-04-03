@@ -24,3 +24,44 @@ font-size: 200%
 li a:hover {background-color:salmon ;
 font-size: 130%;
 color: Red}
+
+
+
+.container {width: 50%;
+height: 150vh;
+display:flex;
+align-items:center;
+justify-content:space-evenly;}
+
+.first {background-color: blue;
+font-size: 100px;
+ font-family:arial}
+
+
+.sec {background-color:salmon;
+font-size: 200px;
+  border:dashed green;}
+
+.third {background-color: purple;
+font-size: 100px;}
+  
+  @media only screen and (max-width:1024px;)
+ 
+  .container { flex-direction: column;} 
+    
+    
+  }
+
+body {background-color: grey;}
+
+
+
+
+
+
+
+
+
+
+
+
