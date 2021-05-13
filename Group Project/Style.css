@@ -1,0 +1,28 @@
+ t {font-size:100px;
+font-family: Arial, Helvetica, sans-serif;
+color:aqua;}
+
+  
+  
+  
+  function topFunction() 
+{document.body.scrollTop = 0;
+	document.documentElement.scrollTop = 0;
+}
+
+function hideFunction() {
+  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 50) document.getElementById("topbutton").style.display = "block";
+  else {   document.getElementById("topbutton").style.display = "none";
+
+    
+  }
+
+  
+}
+  
+  
+  
+  window.onscroll = function() {hideFunction()};
+  
+
+ 
