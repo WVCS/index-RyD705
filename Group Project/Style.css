@@ -25,4 +25,25 @@ function hideFunction() {
   window.onscroll = function() {hideFunction()};
   
 
+ ul.nav {
+  list-style-type:none;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: red;
+}
+
+li.nav {display: inline;
+padding: 10px;
+margin: 50px;
+float: ;
+}
+a{text-decoration: none;
+color: aqua;
+font-size: 200%}
  
+li a:hover {background-color: red;
+font-size: 130%;
+color: green}
+
